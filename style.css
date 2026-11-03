@@ -1,0 +1,34 @@
+canvas{
+    background-color: black;
+    display: none;
+}
+#buttons{
+    display: none;
+}
+#keysjpg{
+    height: 138px;
+    width: 444px;
+    display: none;
+}
+
+div{text-align: center}
+button{font-size:20px}
+.play{
+    display: inline;
+    color:red;
+}
+#playercolortext{
+    color:blue;
+    display: inline;
+}
+#botcolortext{
+    color:green;
+    display: inline;
+}
+#gamemodepvp, #gamemodepve, #gamemodesrv {
+    padding: 150px;
+    font-size: 60px;
+    vertical-align: bottom;
+}
+#gamemodepvp, #gamemodepve { margin-top: 150px; }
+#gamemodesrv { margin-top: 5px; }
